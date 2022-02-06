@@ -1,4 +1,4 @@
-"Date and time";"us";"sub_DAQ.mod_LogicLev.cntr_FPC11.prm_LReactor.a_var";"sub_DAQ.mod_LogicLev.cntr_FPC11.prm_C_g.a_var";"sub_DAQ.mod_LogicLev.cntr_FPC11.prm_C_Eff.a_var";"sub_DAQ.mod_LogicLev.cntr_FPC11.prm_C_CD.a_var";"sub_DAQ.mod_LogicLev.cntr_FPC11.prm_T_CD.a_var";"sub_DAQ.mod_LogicLev.cntr_FPC11.prm_C_D_g.a_var";"sub_DAQ.mod_LogicLev.cntr_FPC11.prm_C_D_Eff.a_var";"sub_DAQ.mod_LogicLev.cntr_FPC11.prm_C_PAR.a_var"
+"Date_Time";"us";"LReactor";"C_g";"C_Eff";"C_CD";"T_CD";"C_D_g";"C_D_Eff";"C_PAR"
 "12/12/2021 10:41:24";0;1.32737;0.065081;0;0.066638;0;1.15274;0;0
 "12/12/2021 11:14:00";0;1.32737;-0.000283503;0;0.0713672;0;-0.0160186;0;0
 "12/12/2021 11:46:36";0;1.32737;-6.82983e-05;0;0.0705157;0;-0.0555785;0;0
