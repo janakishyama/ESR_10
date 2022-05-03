@@ -1,0 +1,3 @@
+All index tables are created. Values are inserted for all tables except log_parameter table
+All tables are created except recipe table. 
+Recipe table require lot of manual data collection and filtration and computation
