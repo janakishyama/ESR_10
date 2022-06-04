@@ -257,3 +257,33 @@ CREATE TABLE IF NOT EXISTS `tbl_unit` (
 /*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;
+
+
+/* New tbl_cumulative_per_day */;
+CREATE TABLE `tbl_cumulative_per_day` (
+	`time_stamp` INT(64) NOT NULL,
+	`date_time` DATETIME NOT NULL,
+	`unit` INT(16) NOT NULL,
+	`trial_no` INT(16) NOT NULL,
+	`species` INT(16) NOT NULL,
+	`D_CD_gpl` FLOAT(32) NULL DEFAULT NULL,
+	`Co2_Conv` FLOAT(32) NULL DEFAULT NULL,
+	`D_CO2_g` FLOAT(32) NULL DEFAULT NULL,
+	`D_CO2_gpm` FLOAT(32) NULL DEFAULT NULL,
+	`D_Co2_Conv_gpg` FLOAT(32) NULL DEFAULT NULL,
+	`D_Feed_l` FLOAT(32) NULL DEFAULT NULL,
+	`D_Harvest_l` FLOAT(32) NULL DEFAULT NULL,
+	`D_Harvest_Algae_g` FLOAT(32) NULL DEFAULT NULL,
+	`D_PAR_molpm` FLOAT(32) NULL DEFAULT NULL,
+	`D_eff_percent` FLOAT(32) NULL DEFAULT NULL,
+	`D_Productivity_g` FLOAT(32) NULL DEFAULT NULL,
+	`D_Productivity_gpm` FLOAT(32) NULL DEFAULT NULL,
+	`PAR_2Algae_Conv` FLOAT(32) NULL DEFAULT NULL,
+	`R_Surface_m` FLOAT(32) NULL DEFAULT NULL,
+	`R_Biomass_kg` FLOAT(32) NULL DEFAULT NULL,
+	`R_Volume_l` FLOAT(32) NULL DEFAULT NULL,
+	PRIMARY KEY (`time_stamp`, `unit`)
+)
+COMMENT='cumulative photobio reactor data per day'
+COLLATE='utf8mb3_general_ci'
+;
